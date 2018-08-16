@@ -1,2 +1,0 @@
-# vegogosignup
-temporary landing page

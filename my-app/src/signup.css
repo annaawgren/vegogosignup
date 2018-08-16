@@ -1,0 +1,41 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.signup-button {
+  height: auto;
+  width: auto;
+  padding: 10px 5px;
+  outline: none;
+  border: 0px;
+  border-radius: 0px;
+  margin-top: 50px;
+  background: black;
+  color: #fff;
+  font-family: "URWGeometric-Bold.woff";
+  line-height: 1;
+}
+
+.signup-button:hover {
+  cursor: pointer;
+}
+
+
+
+input {
+  background: none;
+  border: none;
+  font-size: 5vh;
+  outline: none;
+  width: 30vw;
+  text-align: center;
+
+}
+
+input::placeholder {
+  font-family: "URWGeometric-Bold.woff";
+  font-size: 5vh;
+}
