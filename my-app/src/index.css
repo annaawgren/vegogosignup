@@ -26,6 +26,11 @@ body {
 }
 
 @font-face {
+  font-family: "URWGeometric-SemiBold.woff";
+  src: url("/URWGeometric-SemiBold.woff") format("woff");
+}
+
+@font-face {
   font-family: "apercu-mono.woff";
   src: url("/apercu-mono.woff") format("woff");
 }

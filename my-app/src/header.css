@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.header h1 {
+  font-family: "URWGeometric-Bold.woff";
+  font-size: 10vh;
+  color: #FFF;
+  position: absolute;
+}

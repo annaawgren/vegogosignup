@@ -6,15 +6,14 @@ class Signup extends Component {
     return (<div className="footer-container">
 
       <div className="footer-txt-container">
-        <p className="footer-txt">The new guide to vegan eating.
-          <br/>
-          Curated for you with &lt;3
-        </p>
+
       </div>
 
       <div className="logo-copyright-container">
         <div className="copyright-footer">
-          Copyright © 2018 vegogo
+          <p>Copyright © 2018 vegogo</p>
+          <p>Contact us at <a href="mailto:hello@vegogo.se">hello@vegogo.se</a></p>
+          <p>Illustrations by <a href="http://www.christineroesch.de/" target="blank">Christine Rösch </a></p>
         </div>
         <div className="vegogo-logo-footer">
           vegogo

@@ -6,7 +6,15 @@ import React, {Component} from 'react'
 class Signup extends Component {
   render() {
     return (
-      <div className="signup">
+      <div className="header">
+
+        <p className="footer-txt">vegogo – the new guide to vegan eating
+        <br /> curated for you with &lt;3. Coming soon.<br />
+        Sign up to be the first to know when.
+        </p>
+
+
+
 
         <div id="mc_embed_signup">
 

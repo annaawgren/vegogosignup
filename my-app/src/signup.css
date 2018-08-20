@@ -15,7 +15,7 @@
   margin-top: 50px;
   background: black;
   color: #fff;
-  font-family: "URWGeometric-Bold.woff";
+  font-family: "URWGeometric-SemiBold.woff";
   line-height: 1;
 }
 
@@ -37,5 +37,5 @@ input {
 
 input::placeholder {
   font-family: "URWGeometric-Bold.woff";
-  font-size: 5vh;
+  font-size: 40px;
 }
