@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 
 
-import Girlz from './images/girlz.jpg'
+import Map from './images/intromap.jpg'
 
 
 
@@ -12,7 +12,7 @@ class Illis extends Component {
     return (
       <div className="illis">
 
-      <img className="girls" src={Girlz} />
+      <img className="girls" src={Map} />
 
 
       </div>)

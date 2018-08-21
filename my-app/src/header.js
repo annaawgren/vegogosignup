@@ -8,46 +8,65 @@ import Mahalo from "./images/mahalo.jpg"
 import Omnipollo from "./images/omnipollo.jpg"
 import Pepstop from "./images/pepstop.jpg"
 import Rosendahl from "./images/rosendahl.jpg"
-
-
-
+import Scroll from "./images/down-arrow.svg"
 
 class Header extends React.Component {
 
-	constructor(props) {
-  	super(props)
-    this.backgrounds = [Gossip, Gossip2, Hatt, Linglong, Mahalo, Omnipollo, Pepstop, Rosendahl]
-    this.state = { backgroundIndex: 0 }
 
-		this.changeImg = this.changeImg.bind(this)
+  // constructor(props) {
+  //   super(props) {
+  //     this.state = {
+  //       picsVisible = false
+  //     }
+  //   }
+  // }
+  //
+  // handlepicsVisible = () => {
+  // this.setState({ picsVisible: !this.state.picsVisible })
+  // }
+
+  componentDidMount() {
+
+    const pics = document.querySelectorAll('.pic')
+    pics.forEach((pic, index) => {
+      pic.animate([
+        {
+          transform: 'scale(0)'
+        }, {
+          transform: 'scale(1)'
+        }
+      ], {
+        delay: 300 * index,
+        duration: 400,
+        iterations: 1
+      })
+    })
+
   }
 
-  componentDidMount () {
-		setInterval(this.changeImg, 900)
-  }
+  render() {
+    return (<div className="header">
 
-	changeImg () {
-		let bgImgIndex = this.state.backgroundIndex + 1
-		console.log(bgImgIndex)
-		console.log(this.backgrounds.length)
-		if(bgImgIndex >= this.backgrounds.length) {
-			bgImgIndex = 0
-		}
-		this.setState({ backgroundIndex: bgImgIndex })
-	}
-
-
-  render () {
-    return (
-      <div className="header">
-
-
-        <img className="video" src={ this.backgrounds[this.state.backgroundIndex] } />
+      <div className="theNewGuide">
+        <h1>
+          The new guide
+          <br/>
+          to vegan eating
+        </h1>
       </div>
-    )
+
+      <div className="pic bg-pic"/>
+      <div className="pic bg-pic"/>
+      <div className="pic bg-pic"/>
+      <div className="pic bg-pic"/>
+      <div className="pic bg-pic"/>
+      <div className="pic bg-pic"/>
+
+      <a href="#signup">
+        <img className="scroll" src={Scroll} alt="scrollarrow"/>
+      </a>
+    </div>)
   }
 }
-
-
 
 export default Header

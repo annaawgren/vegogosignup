@@ -12,9 +12,6 @@ import './signup.css'
 import './illis.css'
 
 
-import Map from './images/soderalmlanding.jpg'
-import Eat from './images/bg5.jpg'
-
 
 
 
@@ -26,7 +23,7 @@ class App extends Component {
         <Header />
       </div>
 
-      <div>
+      <div id="signup">
         <Signup />
       </div>
 
