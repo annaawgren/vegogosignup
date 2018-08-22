@@ -1,9 +1,15 @@
 import React, {Component} from 'react'
 
+import Map from './images/intromap.jpg'
+
 class Signup extends Component {
   render() {
 
     return (<div className="footer">
+
+      <div className="illis">
+        <img src={Map} alt="a map illustration" />
+      </div>
 
       <div className="copyrights">
         <p>Copyright © 2018 vegogo</p>

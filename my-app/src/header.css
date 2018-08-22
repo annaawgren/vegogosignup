@@ -15,19 +15,19 @@
   width: 100%;
 } */
 
-.header h1 {
-  font-family: "FrontageCondensed-3D.woff";
-  font-size: 10em;
-  color: #000;
-  text-align: center;
-}
-
 .theNewGuide {
   position: absolute;
   top: 1vh;
   width: 100vw;
-  text-align: center;
   z-index: 2;
+  padding: 0 20vw;
+}
+
+.theNewGuide h1 {
+  font-family: "FrontageCondensed-3D.woff";
+  font-size: 10em;
+  color: #000;
+  text-align: center;
 }
 
 .scroll {
@@ -46,7 +46,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .pic {
@@ -109,4 +109,52 @@
   width: 300px;
   height: 250px;
   background-image: url(./images/gossip.jpg);
+}
+
+
+@media (max-width: 1107px) {
+  .header h1 {
+    font-size: 8em;
+  }
+
+  .theNewGuide {
+    top: 10vh;
+    padding: 0 10vw;
+  }
+
+
+}
+
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 7em;
+  }
+
+  .theNewGuide {
+    top:15vh;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 510px) {
+  .header h1 {
+    font-size: 5em;
+  }
+
+  .theNewGuide {
+    top:20vh;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header h1 {
+    font-size: 4em;
+  }
+
+  .theNewGuide {
+    top:30vh;
+    padding: 0 20px;
+  }
 }

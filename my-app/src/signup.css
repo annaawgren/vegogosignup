@@ -13,6 +13,7 @@
   font-family: "URWGeometric-Bold.woff";
   font-size: 2em;
   line-height: 1.5em;
+  margin-bottom: 50px;
 }
 
 .signup-button {
@@ -23,7 +24,7 @@
   border: 0px;
   border-radius: 0px;
   margin-top: 50px;
-  background: black;
+  background: #000;
   color: #fff;
   font-family: "URWGeometric-SemiBold.woff";
   line-height: 1;
@@ -36,10 +37,14 @@
 
 input {
   background: none;
-  border: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px white;
+  padding-bottom: 10px;
   font-size: 50px;
   outline: none;
-  width: 30vw;
+  width: 500px;
   text-align: center;
 }
 
@@ -47,4 +52,20 @@ input::placeholder {
   font-family: "URWGeometric-Bold.woff";
   font-size: 40px;
   color: #fff;
+}
+
+@media (max-width: 648px) {
+  .signup {
+    padding: 0 50px;
+  }
+
+  input {
+    font-size: 30px;
+    width: 400px;
+  }
+
+  input::placeholder {
+    font-size: 30px;
+  }
+
 }

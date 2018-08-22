@@ -13,18 +13,6 @@ import Scroll from "./images/down-arrow.svg"
 class Header extends React.Component {
 
 
-  // constructor(props) {
-  //   super(props) {
-  //     this.state = {
-  //       picsVisible = false
-  //     }
-  //   }
-  // }
-  //
-  // handlepicsVisible = () => {
-  // this.setState({ picsVisible: !this.state.picsVisible })
-  // }
-
   componentDidMount() {
 
     const pics = document.querySelectorAll('.pic')
@@ -49,7 +37,9 @@ class Header extends React.Component {
 
       <div className="theNewGuide">
         <h1>
-          The new guide
+          The new
+          <br/>
+          guide
           <br/>
           to vegan eating
         </h1>
