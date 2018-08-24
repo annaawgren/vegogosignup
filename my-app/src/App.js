@@ -19,6 +19,8 @@ class App extends Component {
 
       <div>
         <Header />
+        ALOHA!!!
+        
       </div>
 
       <div id="signup">
