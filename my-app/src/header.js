@@ -10,6 +10,8 @@ import Pepstop from "./images/pepstop.jpg"
 import Rosendahl from "./images/rosendahl.jpg"
 import Scroll from "./images/down-arrow.svg"
 
+import * as webanims from 'web-animations-js';
+
 class Header extends React.Component {
 
 
@@ -26,7 +28,8 @@ class Header extends React.Component {
       ], {
         delay: 300 * index,
         duration: 400,
-        iterations: 1
+        iterations: 1,
+        'fill': 'forwards'
       })
     })
 
@@ -37,8 +40,9 @@ class Header extends React.Component {
 
       <div className="theNewGuide">
         <h1>
-          The new
+          The
           <br/>
+          new
           guide
           <br/>
           to vegan eating
