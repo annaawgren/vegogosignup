@@ -25,8 +25,6 @@ class App extends Component {
         <Signup />
       </div>
 
-  
-
       <div>
         <Footer />
       </div>
