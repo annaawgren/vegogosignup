@@ -20,10 +20,21 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
   width: 100%;
 } */
 
+.header-vegogo-logo {
+  font-family: "URWGeometric-Bold.woff";
+  font-size: 1.75em;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: black;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
 .theNewGuide {
   position: absolute;
   top: 1vh;
-  width: 100%;
+  width: 80%;
   z-index: 2;
   padding: 0 20vw;
 }
@@ -33,6 +44,11 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
   font-size: 10em;
   color: #000;
   text-align: center;
+}
+
+.theNewGuide_line {
+  display: block;
+  white-space: nowrap;
 }
 
 .scroll {
@@ -170,14 +186,14 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
 
   .header {
     width: 100%
   }
 
   .header h1 {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 
   .theNewGuide {
@@ -185,5 +201,6 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
     top: auto;
     left: auto;
     padding: 0;
+    width: 90%;
   }
 }

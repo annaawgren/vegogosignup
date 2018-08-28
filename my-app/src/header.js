@@ -38,13 +38,17 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
+
+        <div className="header-vegogo-logo">
+          vegogo
+        </div>
+
         <div className="theNewGuide">
           <h1>
-            The
-            <br />
-            new guide
-            <br />
-            to vegan eating
+            <span className="theNewGuide_line">The</span>
+            <span className="theNewGuide_line">new guide</span>
+            <span className="theNewGuide_line">to vegan</span>
+            <span className="theNewGuide_line">eating</span>
           </h1>
         </div>
 
