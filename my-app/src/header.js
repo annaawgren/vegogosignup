@@ -52,12 +52,12 @@ class Header extends React.Component {
           </h1>
         </div>
 
-        <div className="pic bg-pic" />
-        <div className="pic bg-pic" />
-        <div className="pic bg-pic" />
-        <div className="pic bg-pic" />
-        <div className="pic bg-pic" />
-        <div className="pic bg-pic" />
+        <div className="pic bg-pic pic_1" />
+        <div className="pic bg-pic pic_2" />
+        <div className="pic bg-pic pic_3" />
+        <div className="pic bg-pic pic_4" />
+        <div className="pic bg-pic pic_5" />
+        <div className="pic bg-pic pic_6" />
 
         <a href="#signup">
           <img className="scroll" src={Scroll} alt="scrollarrow" />
