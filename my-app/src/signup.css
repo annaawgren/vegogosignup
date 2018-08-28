@@ -1,9 +1,9 @@
 .signup {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 60vh;
+  align-items: center; */
+  min-height: 60vh;
   background-color: #69e0c2;
   text-align: center;
   position: relative;
@@ -56,12 +56,13 @@ input::placeholder {
 
 @media (max-width: 648px) {
   .signup {
-    padding: 0 50px;
+    padding: 50px 50px;
   }
 
   input {
     font-size: 30px;
     width: 400px;
+    max-width: 100%;
   }
 
   input::placeholder {

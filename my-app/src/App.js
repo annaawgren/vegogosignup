@@ -13,17 +13,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div>
-          <Header />
-        </div>
-
-        <div id="signup">
-          <Signup />
-        </div>
-
-        <div>
-          <Footer />
-        </div>
+        <Header />
+        <Signup />
+        <Footer />
       </div>
     );
   }
