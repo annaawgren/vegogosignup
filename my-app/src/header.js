@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 // import Gossip from "./images/gossip.jpg"
 // import Gossip2 from "./images/gossip2.jpg"
@@ -8,59 +8,59 @@ import React from "react"
 // import Omnipollo from "./images/omnipollo.jpg"
 // import Pepstop from "./images/pepstop.jpg"
 // import Rosendahl from "./images/rosendahl.jpg"
-import Scroll from "./images/down-arrow.svg"
+import Scroll from "./images/down-arrow.svg";
 
-import 'web-animations-js';
+import "web-animations-js";
 
 class Header extends React.Component {
-
-
   componentDidMount() {
-
-    const pics = document.querySelectorAll('.pic')
+    const pics = document.querySelectorAll(".pic");
     pics.forEach((pic, index) => {
-      pic.animate([
+      pic.animate(
+        [
+          {
+            transform: "scale(0)"
+          },
+          {
+            transform: "scale(1)"
+          }
+        ],
         {
-          transform: 'scale(0)'
-        }, {
-          transform: 'scale(1)'
+          delay: 300 * index,
+          duration: 400,
+          iterations: 1,
+          fill: "forwards"
         }
-      ], {
-        delay: 300 * index,
-        duration: 400,
-        iterations: 1,
-        'fill': 'forwards'
-      })
-    })
-
+      );
+    });
   }
 
   render() {
-    return (<div className="header">
+    return (
+      <div className="header">
+        <div className="theNewGuide">
+          <h1>
+            The
+            <br />
+            new guide
+            <br />
+            to vegan eating
+          </h1>
+        </div>
 
-      <div className="theNewGuide">
-        <h1>
-          The
-          <br/>
-          new
-          guide
-          <br/>
-          to vegan eating
-        </h1>
+        <div className="pic bg-pic" />
+        <div className="pic bg-pic" />
+        <div className="pic bg-pic" />
+        <div className="pic bg-pic" />
+        <div className="pic bg-pic" />
+        <div className="pic bg-pic" />
+
+        <a href="#signup">
+          <img className="scroll" src={Scroll} alt="scrollarrow" />
+        </a>
       </div>
-
-      <div className="pic bg-pic"/>
-      <div className="pic bg-pic"/>
-      <div className="pic bg-pic"/>
-      <div className="pic bg-pic"/>
-      <div className="pic bg-pic"/>
-      <div className="pic bg-pic"/>
-
-      <a href="#signup">
-        <img className="scroll" src={Scroll} alt="scrollarrow"/>
-      </a>
-    </div>)
+    );
   }
 }
 
-export default Header
+export default Header;
