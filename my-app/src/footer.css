@@ -8,7 +8,6 @@
   position: relative;
 }
 
-
 .illis {
   width: 100%;
   height: 50vh;
@@ -22,6 +21,16 @@
   width: 60%;
   position: absolute;
   top: 5%;
+}
+
+.illis {
+  height: auto;
+}
+
+.illis img {
+  position: relative;
+  top: auto;
+  width: 80%;
 }
 
 .copyrights {
@@ -64,16 +73,6 @@
 
   .vegogo-logo {
     margin-top: 30px;
-  }
-
-  .illis {
-    height: auto;
-  }
-
-  .illis img {
-    position: relative;
-    top: auto;
-    width: 80%;
   }
 
   .copyrights,
