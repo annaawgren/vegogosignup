@@ -7,6 +7,7 @@
   background-color: #69e0c2;
   text-align: center;
   position: relative;
+  padding: 50px 50px;
 }
 
 .signup-txt {
@@ -56,7 +57,7 @@ input::placeholder {
 
 @media (max-width: 648px) {
   .signup {
-    padding: 50px 50px;
+    /* padding: 50px 50px; */
   }
 
   input {
