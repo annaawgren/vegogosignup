@@ -83,6 +83,7 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
   background-repeat: no-repeat;
   background-size: cover;
   transform: scale(0);
+  transition: all 0.1s ease-out;
 }
 
 .pic_6 {
@@ -117,14 +118,16 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
   background-image: url(./images/hatt.jpg);
   left: 5%;
   top: 11%;
+  width: 24vw;
+  height:    15vw;
 }
 
 .pic_2 {
   top: 5%;
-  width: 20vw;
+  width: 23vw;
   height: 15vw;
   background-image: url(./images/pepstop.jpg);
-  left: 46%;
+  right: 7%;
 }
 
 .pic_3 {
@@ -199,4 +202,7 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
 }
 
 @media (min-width: 900px) {
+  .pic_3 {
+    top: 34%;
+  }
 }
