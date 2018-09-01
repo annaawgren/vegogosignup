@@ -42,7 +42,7 @@ a {
   src: url("/apercu-mono.woff") format("woff");
 }
 
-@font-face {
+/* @font-face {
   font-family: "FrontageCondensed-3D.woff";
   src: url("/FrontageCondensed-3D.woff") format("woff");
-}
+} */

@@ -9,6 +9,7 @@ import React from "react";
 // import Pepstop from "./images/pepstop.jpg"
 // import Rosendahl from "./images/rosendahl.jpg"
 import Scroll from "./images/down-arrow.svg";
+import Introtext from './images/introtext.svg';
 
 import "web-animations-js";
 
@@ -45,10 +46,11 @@ class Header extends React.Component {
 
         <div className="theNewGuide">
           <h1>
-            <span className="theNewGuide_line">The</span>
+            <img src={Introtext} alt="The new guide to vegan eating" />
+            {/* <span className="theNewGuide_line">The</span>
             <span className="theNewGuide_line">new guide</span>
             <span className="theNewGuide_line">to vegan</span>
-            <span className="theNewGuide_line">eating</span>
+            <span className="theNewGuide_line">eating</span> */}
           </h1>
         </div>
 
