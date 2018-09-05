@@ -86,11 +86,7 @@ input::placeholder {
 
 @media (min-width: 950px) {
   .signup-txt-box {
-    width: 800px;
-  }
-  .signup-txt {
-    font-size: 3em;
-    line-height: 1.5em;
+    width: 660px;
   }
 
   input::placeholder {
