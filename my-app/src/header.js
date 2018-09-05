@@ -39,10 +39,6 @@ class Header extends React.Component {
         <div className="theNewGuide">
           <h1>
             <img src={Introtext} alt="The new guide to vegan eating" />
-            {/* <span className="theNewGuide_line">The</span>
-            <span className="theNewGuide_line">new guide</span>
-            <span className="theNewGuide_line">to vegan</span>
-            <span className="theNewGuide_line">eating</span> */}
           </h1>
         </div>
 

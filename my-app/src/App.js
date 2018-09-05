@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header className="parallax"/>
+        <Header/>
         <Signup/>
         <Footer/>
     </div>)

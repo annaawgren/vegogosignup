@@ -44,6 +44,23 @@
   color: lightgrey;
 }
 
+@keyframes textanimation {
+  25%  {
+    color:#16F4D0;
+    background-position:0% 50%;}
+  50%  {
+    color:#FF8A5B;
+    background-position:100% 50%;}
+  100% {
+    color:#16F4D0;
+    background-position:0% 50%;}
+}
+
+.copyrights a:hover {
+  cursor: pointer;
+  animation: textanimation 0.8s ease infinite;
+}
+
 .vegogo-logo {
   font-family: "URWGeometric-Bold.woff";
   font-size: 4em;

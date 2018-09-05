@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   min-height: 60vh;
-  background-color: #69e0c2;
+  background-color: #16F4D0;
   text-align: center;
   position: relative;
   padding: 50px 50px;
@@ -32,9 +32,23 @@
   font-size: 20px;
 }
 
+@keyframes textanimation {
+  25%  {
+    color:#16F4D0;
+    background-position:0% 50%;}
+  50%  {
+    color:#FF8A5B;
+    background-position:100% 50%;}
+  100% {
+    color:#16F4D0;
+    background-position:0% 50%;}
+}
+
 .signup-button:hover {
   cursor: pointer;
+  animation: textanimation 0.8s ease infinite;
 }
+
 
 input {
   background: white;

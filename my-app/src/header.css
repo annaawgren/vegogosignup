@@ -13,9 +13,6 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
   width: 100%;
 }
 
-.parallax {
-  background-attachment: fixed;
-}
 
 .header-vegogo-logo {
   font-family: "URWGeometric-Bold.woff";
@@ -26,6 +23,10 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
   position: absolute;
   top: 20px;
   left: 10vw;
+}
+
+.header-vegogo-logo:hover {
+  animation: textanimation 0.8s ease infinite;
 }
 
 .theNewGuide {
@@ -52,10 +53,20 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
   padding: 20px; /* Add more clickable area */
 }
 
+@keyframes bounce  {
+  0%, 20%, 40%, 60%, 80%, 100% {transform: translateY(0);}
+  50% {transform: translateY(-18px);}
+}
+
 .scrollArrow__img {
   display: block;
   width: 40px;
   height: 40px;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .visible {
@@ -68,8 +79,12 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
   background-repeat: no-repeat;
   background-size: cover;
   transform: scale(0);
-  transition: all 0.1s ease-out;
+  transition: all 0.1s ease-in;
 }
+
+/* .bg-pic:hover {
+    transform: scale(1.1);
+} */
 
 .pic_1 {
   background-image: url(./images/hatt.jpg);
