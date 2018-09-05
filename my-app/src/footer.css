@@ -35,13 +35,13 @@
 
 .copyrights p {
   font-family: "URWGeometric-SemiBold.woff";
-  font-size: 16px;
-  color: lightgrey;
-  line-height: 1.8;
+  font-size: 14px;
+  color: grey;
+  line-height: 1.6;
 }
 
 .copyrights a {
-  color: lightgrey;
+  color: grey;
 }
 
 @keyframes textanimation {
