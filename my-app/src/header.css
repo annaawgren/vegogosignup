@@ -22,13 +22,13 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
 
 .header-vegogo-logo {
   font-family: "URWGeometric-Bold.woff";
-  font-size: 1.75em;
+  font-size: 2.5em;
   line-height: 1;
   letter-spacing: -1px;
   color: black;
   position: absolute;
   top: 20px;
-  left: 20px;
+  left: 10vw;
 }
 
 .theNewGuide {
@@ -86,105 +86,170 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
   transition: all 0.1s ease-out;
 }
 
-.pic_6 {
-  left: 4%;
-  top: 80%;
-  width: 200px;
-  height: 250px;
-  width: 15vw;
-  height: 40vh;
-  background-image: url(./images/omnipollo.jpg);
-}
-
-.pic_7 {
-  left: 20%;
-  top: 60%;
-  width: 300px;
-  height: 250px;
-  width: 20vw;
-  height: 40vh;
-
-  background-image: url(./images/gossip.jpg);
-}
-
-.pic {
+/* .pic {
   width: 20vw;
   height: 20vw;
   max-width: 200px;
   max-height: 200px;
-}
+} */
 
 .pic_1 {
   background-image: url(./images/hatt.jpg);
   left: 5%;
   top: 11%;
-  width: 24vw;
+  width: 20vw;
   height: 15vw;
 }
 
 .pic_2 {
   top: 5%;
-  width: 23vw;
-  height: 15vw;
+  width: 20vw;
+  height: 14vw;
   background-image: url(./images/pepstop.jpg);
   right: 7%;
 }
 
 .pic_3 {
   background-image: url(./images/rosendahl.jpg);
-  top: 25%;
+  top: 40%;
   right: 0;
-  width: 90px;
-  height: 60px;
-  width: 20vw;
-  height: 20vw;
+  width: 13vw;
+  height: 11vw;
 }
 
 .pic_4 {
   background-image: url(./images/mahalo.jpg);
-  top: 65%;
+  top: 68%;
   left: 0;
   width: 25vw;
   height: 20vw;
 }
 
 .pic_5 {
-  background-image: url(./images/linlong.jpg);
+  background-image: url(./images/gossip.jpg);
   bottom: 5%;
-  right: 10%;
-  width: 23vw;
-  height: 25vw;
+  right: 5%;
+  width: 20vw;
+  height: 25vh;
 }
 
-.pic_6 {
-  display: none;
+@media (max-width: 1100px) {
+  .pic_5 {
+    right: 3%;
+  }
+
 }
 
-@media (max-width: 1107px) {
-  .header h1 {
-    /* font-size: 8em; */
-    /* font-size: 13vw; */
+@media (max-width: 1060px) {
+  .pic_3 {
+    top: 18%;
+    width: 14vw;
+    height: 13vw;
   }
 
-  .theNewGuide {
-    /* top: 10vh; */
-    /* padding: 0 10vw; */
+  .pic_5 {
+    right: 3%;
+    width: 18vw;
+    height: 18vw;
+  }
+
+  .pic_4 {
+    top: 75%;
+    width: 22vw;
+  }
+
+  .pic_2 {
+    right: 15%;
+    top: 2%;
+  }
+
+}
+
+@media (max-width: 920px) {
+  .pic_5 {
+    right: 2%;
+    width: 21vw;
+    height: 21vw;
+  }
+
+  .pic_3 {
+    width: 16vw;
+    height: 13vw;
+  }
+
+}
+
+
+@media (max-width: 850px) {
+  .pic_3 {
+    top: 18%;
+    width: 20vw;
+    height: 18vw;
+  }
+
+  .pic_2 {
+    right: 25%;
+    width: 22vw;
+    height: 16vw;
+  }
+
+  .pic_1 {
+    width: 23vw;
+    height: 18vw;
   }
 }
 
-@media (max-width: 768px) {
-  .theNewGuide {
-    /* top: 15vh; */
-    /* padding: 0 20px; */
-    /* width: 90%; */
+
+@media (max-width: 740px) {
+  .pic_3 {
+    top: 20%;
+    width: 25vw;
+    height: 18vw;
   }
+
+  .pic_2 {
+    right: 22%;
+    top:5%;
+    width: 22vw;
+    height: 16vw;
+  }
+
+  .pic_5 {
+    width: 26vw;
+  }
+
+  .pic_4 {
+    top: 78%;
+    width: 28vw;
+  }
+
 }
 
-@media (max-width: 510px) {
-  .theNewGuide {
-    /* top: 20vh; */
-    /* padding: 0 20px; */
+@media (max-width: 670px) {
+  .pic_3 {
+    width: 30vw;
+    height: 25vw;
   }
+
+  .pic_2 {
+    right: 20%;
+    width: 23vw;
+  }
+
+  .pic_1 {
+    width: 28vw;
+  }
+
+  .pic_5 {
+    width: 32vw;
+    height: 25vw;
+  }
+
+  .pic_4 {
+    top: 78%;
+    width: 28vw;
+  }
+
 }
 
 @media (max-width: 640px) {
@@ -192,17 +257,108 @@ https://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-pa
     width: 100%;
   }
 
-  .theNewGuide {
-    /* position: relative;
-    top: auto;
-    left: auto;
-    padding: 0;
-    width: 90%; */
+  .pic_4 {
+    top: 75%;
+    width: 30vw;
+    height: 22vw;
   }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 540px) {
   .pic_3 {
-    top: 34%;
+    width: 30vw;
+    height: 25vw;
+  }
+
+  .pic_2 {
+    width: 25vw;
+    height: 20vw;
+  }
+
+  .pic_4 {
+    top: 74%;
+    width: 40vw;
+    height: 28vw;
+  }
+
+  .pic_1 {
+    top: 13%;
+    height: 27vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .pic_1 {
+    top: 14%;
+    height: 30vw;
+  }
+
+  .pic_2 {
+    top: 7%;
+    width: 30vw;
+  }
+
+}
+
+@media (max-width: 415px) {
+  .pic_1 {
+    height: 18vw;
+  }
+
+  .pic_3 {
+    top: 23%;
+    height: 19vw;
+  }
+
+  .pic_4 {
+    top: 75%;
+    width: 33vw;
+    height: 23vw;
+  }
+}
+
+@media (max-width: 376px) {
+  .pic_1 {
+    top: 14%;
+    height: 10vh;
+  }
+
+  .pic_2 {
+    top: 4%;
+    width: 30vw;
+  }
+
+  .pic_4 {
+    top: 75%;
+    width: 36vw;
+    height: 25vh;
+  }
+
+  .pic_3 {
+    top: 20%;
+    width: 30vw;
+    height: 20vw;
+  }
+
+  .pic_5 {
+    bottom: 10%;
+  }
+
+  .header-vegogo-logo {
+    font-size: 2em;
+  }
+
+}
+
+@media (max-width: 361px) {
+  .header-vegogo-logo {
+    font-size: 2em;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .header-vegogo-logo {
+    font-size: 2em;
   }
 }
