@@ -1,15 +1,18 @@
 import React, { Component } from "react";
 
+
 class Signup extends Component {
   render() {
     return (
 
         <div className="signup" id="signup">
-          <p className="signup-txt">
-            vegogo – the new guide to vegan eating
-            <br /> curated for you with &lt;3. Coming soon.<br />
-            Sign up to be the first to know when!
-          </p>
+          <div className="signup-txt-box">
+            <p className="signup-txt">
+              Vegogo is the new guide to vegan eating,
+              curated for you with &lt;3. Sign up for our newsletter
+              to be the first to know when we launch!
+            </p>
+          </div>
 
           <div id="mc_embed_signup">
             <form

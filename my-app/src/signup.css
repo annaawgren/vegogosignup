@@ -1,8 +1,8 @@
 .signup {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   min-height: 60vh;
   background-color: #69e0c2;
   text-align: center;
@@ -20,7 +20,7 @@
 .signup-button {
   height: auto;
   width: auto;
-  padding: 13px 13px;
+  padding: 15px 25px;
   outline: none;
   border: 0px;
   border-radius: 0px;
@@ -29,7 +29,7 @@
   color: #fff;
   font-family: "URWGeometric-SemiBold.woff";
   line-height: 1;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .signup-button:hover {
@@ -37,12 +37,9 @@
 }
 
 input {
-  background: none;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: solid 2px white;
-  padding-bottom: 10px;
+  background: white;
+  border: none;
+  padding-bottom: 15px;
   font-size: 50px;
   outline: none;
   width: 500px;
@@ -50,9 +47,9 @@ input {
 }
 
 input::placeholder {
-  font-family: "URWGeometric-Bold.woff";
-  font-size: 40px;
-  color: #fff;
+  font-family: "URWGeometric-regular.woff";
+  font-size: 25px;
+  color: #000;
 }
 
 @media (max-width: 648px) {
@@ -62,12 +59,24 @@ input::placeholder {
 
   input {
     font-size: 30px;
-    width: 400px;
+    width: 280px;
     max-width: 100%;
   }
 
-  input::placeholder {
-    font-size: 30px;
+}
+
+@media (min-width: 950px) {
+  .signup-txt-box {
+    width: 800px;
+  }
+  .signup-txt {
+    font-size: 3em;
+    line-height: 1.5em;
   }
 
+  input::placeholder {
+    font-family: "URWGeometric-regular.woff";
+    font-size: 30px;
+    color: #000;
+  }
 }

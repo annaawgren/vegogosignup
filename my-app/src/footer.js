@@ -11,14 +11,16 @@ class Signup extends Component {
         <img src={Map} alt="a map illustration" />
       </div>
 
-      <div className="copyrights">
-        <p>Copyright © 2018 vegogo</p>
-        <p>Contact us at <a href="mailto:hello@vegogo.se">hello@vegogo.se</a></p>
-        <p>Illustrations by <a href="http://www.christineroesch.de/" target="_blank" rel="noopener noreferrer">Christine Rösch</a></p>
-      </div>
+      <div className="footer-box">
+        <div className="copyrights">
+          <p>Copyright © 2018 vegogo</p>
+          <p>Contact us at <a href="mailto:hello@vegogo.se">hello@vegogo.se</a></p>
+          <p>Illustrations by <a href="http://www.christineroesch.de/" target="_blank" rel="noopener noreferrer">Christine Rösch</a></p>
+        </div>
 
-      <div className="vegogo-logo">
-        vegogo
+        <div className="vegogo-logo">
+          vegogo
+        </div>
       </div>
 
     </div>)

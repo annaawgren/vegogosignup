@@ -1,13 +1,5 @@
 import React from "react";
 
-// import Gossip from "./images/gossip.jpg"
-// import Gossip2 from "./images/gossip2.jpg"
-// import Hatt from "./images/hatt.jpg"
-// import Linglong from "./images/linlong.jpg"
-// import Mahalo from "./images/mahalo.jpg"
-// import Omnipollo from "./images/omnipollo.jpg"
-// import Pepstop from "./images/pepstop.jpg"
-// import Rosendahl from "./images/rosendahl.jpg"
 import Scroll from "./images/down-arrow.svg";
 import Introtext from './images/introtext.svg';
 
