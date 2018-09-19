@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-import Map from './images/intromap.jpg'
+import SthlmMap from './images/sthmlmap.jpg'
 
 class Signup extends Component {
   render() {
@@ -8,7 +8,7 @@ class Signup extends Component {
     return (<div className="footer">
 
       <div className="illis">
-        <img src={Map} alt="a map illustration" />
+        <img src={SthlmMap} alt="a map illustration" />
       </div>
 
       <div className="footer-box">
