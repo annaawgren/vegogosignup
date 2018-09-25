@@ -10,6 +10,21 @@
   padding: 50px 50px;
 }
 
+.signup-txt a {
+  text-decoration: none;
+  color: #000;
+}
+
+.underlined {
+  padding-bottom: 3px;
+  border-bottom: solid 3px #000;
+}
+
+.underlined:hover {
+  padding-bottom: 3px;
+  border-bottom: solid 0 #000;
+}
+
 .signup-txt {
   font-family: "URWGeometric-Bold.woff";
   font-size: 2em;
