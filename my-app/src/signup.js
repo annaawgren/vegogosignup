@@ -9,7 +9,7 @@ class Signup extends Component {
           <div className="signup-txt-box">
             <p className="signup-txt">
               Vegogo is the new guide to vegan eating,
-              curated for you with &lt;3. Follow us on <span className="underlined"><a href="https://www.instagram.com/go_vegogo/" target="blank">instagram</a></span>. Sign up for our newsletter
+              curated for you with &lt;3. Follow us on <span className="underlined"><a href="https://www.instagram.com/go_vegogo/" target="blank">instagram</a></span> or sign up for our newsletter
               to be the first to know when we launch!
             </p>
           </div>
